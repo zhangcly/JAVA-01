@@ -27,7 +27,7 @@ public class WaysToGetResultFromAnotherThread {
 
     /**
      * 方式1 使用wait/notify 控制主线程和新建的线程的次序 使用一个数组（也可以使用对象的一个属性或者List、Map等）
-     * 来接收返回结果 如果返回的是基本类型可以不用数组，直接改变值即可，因为基本类型是值传递，对象是引用传递，在一个方法体内局部变量的引用应该是不可变的
+     * 来接收返回结果 如果返回的是基本类型可以不用数组，直接改变值即可，因为基本类型是值传递，对象是引用传递，在匿名内部类中不能修改局部变量引用的地址
      */
     public static void useWaitNotify() throws InterruptedException {
 
