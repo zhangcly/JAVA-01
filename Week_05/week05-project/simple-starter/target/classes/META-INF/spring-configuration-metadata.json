@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "simple",
+      "type": "zhangc.simple.properties.SimpleProperties",
+      "sourceType": "zhangc.simple.properties.SimpleProperties"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
